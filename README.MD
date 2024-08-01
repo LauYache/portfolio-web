@@ -1,10 +1,8 @@
-¡Entendido! Aquí tienes un README centrado en la documentación del repositorio, las tecnologías utilizadas y el enlace al sitio web:
 
----
 
-# Página Web Personal de Laura Yachelini
+# Portfolio de Laura Yachelini
 
-Este repositorio contiene el código fuente de mi página web personal, donde comparto mis proyectos, experiencias y conocimientos en el campo del desarrollo web y la tecnología.
+Este repositorio contiene el código fuente de mi página web personal, donde comparto mis proyectos, experiencias y conocimientos en el campo del desarrollo y la tecnología.
 
 ## Tecnologías Utilizadas
 
