@@ -1,0 +1,402 @@
+
+
+:root {
+  --Background-Color: #231f20;
+  --Primary-Color: #8c52ff;
+  --Secondary-Color: #5ce1e6;
+  --clear-color: #fff;
+  --icon-color:  #ebe7e7;
+}
+
+* {
+  color: var(--clear-Color);
+  text-align: center;
+  font-family: Poppins;
+  padding-left: 10;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  background: black;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 10px 20px;
+  opacity: 0.7;
+  box-shadow: 0px 4.364px 16px -2.182px rgba(0, 0, 0, 0.1);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+}
+.logo img {
+  height: 150px;
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.nav-links a:hover {
+  color: var(--Secondary-Color);
+  text-decoration:overline;
+
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+div.buttons{
+  text-align:center;
+  justify-content:center
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+  color: var(--Primary-Color);
+}
+
+.hero-content p {
+  max-width: 650px;
+  margin: 0 auto 20px;
+  color: var(--Secondary-Text, #c5c5c5);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: var(--clear-color);
+  border-radius: 100px;
+  color: #231f20;
+}
+
+.btn-primary:hover {
+  background-color: var(--Primary-Color);
+  color: var(--clear-color);
+  border: 1px solid #333;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--clear-color);
+  border: 1px solid #333;
+  border-radius: 100px;
+}
+
+.btn-secondary:hover {
+  background-color: var(--Primary-Color);
+
+}
+
+.skills {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.skills h2{
+  color: var(--Secondary-Text, #C5C5C5);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2.4px;
+}
+
+.svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa{
+  color: var(--icon-color);
+  margin: 0 15px;
+}
+
+.projects {
+  padding: 10px 20px;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 350px;
+}
+
+.project img {
+ width: 350px;
+ height: 200px;
+  border-radius: 10px;
+}
+
+.project h3 {
+  margin: 20px 0 10px;
+}
+
+.project a {
+  color: #8c52ff;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration:underline;
+}
+
+.project, .skills-icons {
+  transition: transform 0.3s ease-in-out; 
+}
+
+.project:hover{
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+
+.experience {
+  padding: 50px 20px;
+}
+
+.experience h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.job {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.job h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.job span {
+  color: #ff6b6b;
+}
+
+.contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+.social-links i {
+  height: 50px;
+  margin: 0 10px;
+}
+
+.hero-title {
+  display: flex;
+  align-items: center;
+  justify-content:center
+}
+.hero-title h1 {
+  margin: 10px;
+  color:whitesmoke;
+  text-align: center;
+
+}
+
+#name-style {
+  --Secondary-Color: #5ce1e6;
+  background: var(
+    --Primary-Gradient,
+    linear-gradient(116deg, #5ce1e6, 71.79%, #9a33ff 95.51%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 63.357px;
+}
+
+.highlight{
+  --Secondary-Color: #5ce1e6;
+  background: var(
+    --Primary-Gradient,
+    linear-gradient(116deg, #5ce1e6, 71.79%, #9a33ff 95.51%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+}
+
+div .project{
+
+  margin: 10px;
+}
+.hamburger {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+
+.hamburger .bar {
+  display: block;
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 4px 0;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.hamburger .close-icon {
+  display: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+
+@media (max-width: 768px ){
+
+  *{
+    align-items: center;
+    margin: auto;
+
+  }
+
+.projects{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 400px;
+
+
+}
+  .nav-links {
+    display: none;
+    position: absolute;
+    background: #333;
+    top: 60px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger.active .bar {
+    display: none;
+  }
+
+  .hamburger.active .close-icon {
+    display: block;
+  }
+
+  nav{
+    padding: 0;
+  }
+
+  .hero-title{
+  display: block;
+
+  }
+
+  .project-list{
+
+    display: block;
+  }
+
+  .project img{
+
+    width: auto;
+  }
+
+  .contact{
+margin: auto;
+    width: 400px;
+  }
+
+}
